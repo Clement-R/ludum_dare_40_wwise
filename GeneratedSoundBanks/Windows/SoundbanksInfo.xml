@@ -22,9 +22,13 @@
 			<Path>ludum_soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1912676331" Name="Play_action_lapin" ObjectPath="\Events\Default Work Unit\Play_action_lapin"/>
+				<Event Id="2492971224" Name="Play_aspire" ObjectPath="\Events\Default Work Unit\Play_aspire"/>
+				<Event Id="3033088026" Name="Play_four" ObjectPath="\Events\Default Work Unit\Play_four"/>
 				<Event Id="4141037488" Name="Play_game_music" ObjectPath="\Events\Default Work Unit\Play_game_music"/>
 				<Event Id="3678041040" Name="Play_jetpack" ObjectPath="\Events\Default Work Unit\Play_jetpack"/>
+				<Event Id="3199860711" Name="Play_metal" ObjectPath="\Events\Default Work Unit\Play_metal"/>
 				<Event Id="1484926170" Name="Play_moteur" ObjectPath="\Events\Default Work Unit\Play_moteur"/>
+				<Event Id="1656134708" Name="Play_police" ObjectPath="\Events\Default Work Unit\Play_police"/>
 				<Event Id="2028669661" Name="Play_reparation" ObjectPath="\Events\Default Work Unit\Play_reparation"/>
 				<Event Id="3343348020" Name="Play_reproduction" ObjectPath="\Events\Default Work Unit\Play_reproduction"/>
 			</IncludedEvents>
@@ -41,13 +45,21 @@
 					<ShortName>lapins-002.wav</ShortName>
 					<Path>SFX\lapins-002_B95B134F.wem</Path>
 				</File>
+				<File Id="371715778" Language="SFX">
+					<ShortName>police.wav</ShortName>
+					<Path>SFX\police_B95B134F.wem</Path>
+				</File>
 				<File Id="407681101" Language="SFX">
 					<ShortName>166542__nic3-one__constant-spray-fire-1.wav</ShortName>
-					<Path>SFX\166542__nic3-one__constant-spray-fire-1_89A9A32A.wem</Path>
+					<Path>SFX\166542__nic3-one__constant-spray-fire-1_66DA9113.wem</Path>
 				</File>
 				<File Id="426829032" Language="SFX">
 					<ShortName>reparation.wav</ShortName>
 					<Path>SFX\reparation_B95B134F.wem</Path>
+				</File>
+				<File Id="428669601" Language="SFX">
+					<ShortName>metal2.wav</ShortName>
+					<Path>SFX\metal2_71383FEB.wem</Path>
 				</File>
 				<File Id="430668461" Language="SFX">
 					<ShortName>lapins-003.wav</ShortName>
@@ -57,17 +69,33 @@
 					<ShortName>lapins-004.wav</ShortName>
 					<Path>SFX\lapins-004_B95B134F.wem</Path>
 				</File>
+				<File Id="443471958" Language="SFX">
+					<ShortName>four.wav</ShortName>
+					<Path>SFX\four_B95B134F.wem</Path>
+				</File>
+				<File Id="487316310" Language="SFX">
+					<ShortName>aspire.wav</ShortName>
+					<Path>SFX\aspire_C3D6DEB0.wem</Path>
+				</File>
+				<File Id="544346802" Language="SFX">
+					<ShortName>metal3.wav</ShortName>
+					<Path>SFX\metal3_DE5745D4.wem</Path>
+				</File>
+				<File Id="691249844" Language="SFX">
+					<ShortName>metal1.wav</ShortName>
+					<Path>SFX\metal1_7F183517.wem</Path>
+				</File>
 				<File Id="788801108" Language="SFX">
 					<ShortName>146770__qubodup__rocket-boost-engine-loop.wav</ShortName>
-					<Path>SFX\146770__qubodup__rocket-boost-engine-loop_F3EDD8F2.wem</Path>
+					<Path>SFX\146770__qubodup__rocket-boost-engine-loop_3AFCCAFC.wem</Path>
 				</File>
 				<File Id="823217418" Language="SFX">
 					<ShortName>né.wav</ShortName>
-					<Path>SFX\né_B95B134F.wem</Path>
+					<Path>SFX\né_8F69D0BC.wem</Path>
 				</File>
 				<File Id="946078885" Language="SFX">
 					<ShortName>376415__inspectorj__wind-synthesized-a.wav</ShortName>
-					<Path>SFX\376415__inspectorj__wind-synthesized-a_1B5191CA.wem</Path>
+					<Path>SFX\376415__inspectorj__wind-synthesized-a_58AD895F.wem</Path>
 				</File>
 				<File Id="1014768237" Language="SFX">
 					<ShortName>lapins-001.wav</ShortName>

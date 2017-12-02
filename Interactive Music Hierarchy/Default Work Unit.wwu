@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0A4413FB-7A4E-4CBF-A078-BF68A45FEEC0}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB0238E4-CE68-4DCF-BA2F-EFF61F43759D}"/>
+							<ObjectRef Name="mus" ID="{CE29D165-862C-406E-9EA2-096C4F0D1399}" WorkUnitID="{EB0238E4-CE68-4DCF-BA2F-EFF61F43759D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -27,6 +27,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="music_test" ID="{0DDCD141-7057-485A-993F-EE8303CAD958}" ShortID="1008683540">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB0238E4-CE68-4DCF-BA2F-EFF61F43759D}"/>
@@ -61,6 +68,69 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="police" ID="{89DCCB87-6D1E-4990-ABA9-CF91FEA40DE7}" ShortID="400851262">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{6D2FFFDB-F939-4C7B-92D9-49A39613CC94}" ShortID="736495451">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="police" ID="{51B91BB4-AABE-4A32-B8EF-AB4009717E22}" WorkUnitID="{0A90EF83-DEC1-4433-A97D-2B843564CC00}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A5C0CA73-8BBA-4822-B1EC-9C101D057E4C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.2470238</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.7470238</XPos>
+																<YPos>0.02917</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB0238E4-CE68-4DCF-BA2F-EFF61F43759D}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1FC558A4-7FD5-450D-8E8B-F2EF3C6A0B01}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{BF43067B-B246-477F-8466-28365A0F8C14}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{424A0F20-EA0E-45F0-85FE-A5BB8FDF044D}"/>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{80336FBC-DB30-40F4-95D1-135539896ADA}"/>
@@ -87,7 +157,16 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{50179D35-3032-471F-B64C-057A1A99F2C1}" ShortID="10213672"/>
+						<MusicPlaylistItem Name="" ID="{50179D35-3032-471F-B64C-057A1A99F2C1}" ShortID="10213672">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{F96E5579-A725-4792-9DF5-66390CCEA827}" ShortID="512720911">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="music_test" ID="{E855BFAF-3078-411C-8D75-EA5696D01DF1}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 			</ChildrenList>

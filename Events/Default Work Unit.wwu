@@ -87,6 +87,74 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_four" ID="{239A82B7-2198-4FB5-9FAD-B5009616B127}">
+					<ChildrenList>
+						<Action Name="" ID="{C93F9859-5D59-4888-896D-44C712E9D5F8}" ShortID="415431295">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="four" ID="{EE845D46-5C88-45AB-8745-BE5939CC000E}" WorkUnitID="{F40E6C3C-A575-457F-B72F-63581A6D5768}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_metal" ID="{753247ED-BDF0-4947-A49B-1D5F6A33C2FC}">
+					<ChildrenList>
+						<Action Name="" ID="{700E8A48-78A4-408D-AC92-BC2325F8BC7F}" ShortID="656850344">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="metal" ID="{DC5D477D-B058-4D3E-BA14-6CA62DA2C688}" WorkUnitID="{F40E6C3C-A575-457F-B72F-63581A6D5768}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_aspire" ID="{39BAC589-E972-4001-A6BD-E30E2213095D}">
+					<ChildrenList>
+						<Action Name="" ID="{081A808B-4912-4133-A22B-F78EB5BD08B7}" ShortID="1031216777">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="aspire" ID="{3F80E460-2F3D-4935-94EA-AAF3F95B4AC9}" WorkUnitID="{F40E6C3C-A575-457F-B72F-63581A6D5768}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_police" ID="{8546BF1B-0AE0-4852-B7DC-EEC4D40062B6}">
+					<ChildrenList>
+						<Action Name="" ID="{9D81E8B7-1077-4596-B2DF-C8FA6220E543}" ShortID="1051243981">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="police" ID="{2C232AB7-BA3C-46E7-8AF8-6A4E559C0A58}" WorkUnitID="{F40E6C3C-A575-457F-B72F-63581A6D5768}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{188DDDBC-8323-41D4-AE6C-2E01B8FDA29B}" ShortID="1053007764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="police" ID="{51B91BB4-AABE-4A32-B8EF-AB4009717E22}" WorkUnitID="{0A90EF83-DEC1-4433-A97D-2B843564CC00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
