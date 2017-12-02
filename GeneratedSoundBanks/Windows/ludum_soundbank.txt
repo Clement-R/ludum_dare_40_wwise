@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1484926170	Play_moteur			\Default Work Unit\Play_moteur	
+	1912676331	Play_action_lapin			\Default Work Unit\Play_action_lapin	
+	2028669661	Play_reparation			\Default Work Unit\Play_reparation	
+	3343348020	Play_reproduction			\Default Work Unit\Play_reproduction	
+	3678041040	Play_jetpack			\Default Work Unit\Play_jetpack	
+	4141037488	Play_game_music			\Default Work Unit\Play_game_music	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	130322156	speed_vaisseau			\Default Work Unit\speed_vaisseau	
+	1267572104	speed_perso			\Default Work Unit\speed_perso	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	133352008	music_test	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_test_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music_test\music_test		9381989
+	233422208	47835__tc630__fire2	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\47835__tc630__fire2_A2672D7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\perso\jetpack\47835__tc630__fire2		864058
+	368712000	lapins-002	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-002		9592
+	407681101	166542__nic3-one__constant-spray-fire-1	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\166542__nic3-one__constant-spray-fire-1_89A9A32A.wem		\Actor-Mixer Hierarchy\Default Work Unit\perso\jetpack\166542__nic3-one__constant-spray-fire-1		527341
+	426829032	reparation	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\reparation_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\perso\reparation		29270
+	430668461	lapins-003	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-003		10434
+	442780655	lapins-004	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-004_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-004		9837
+	788801108	146770__qubodup__rocket-boost-engine-loop	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\146770__qubodup__rocket-boost-engine-loop_F3EDD8F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\vaisseau\motor\146770__qubodup__rocket-boost-engine-loop		118028
+	823217418	reproduction	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\né_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\reproduction		3425
+	946078885	slow	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\376415__inspectorj__wind-synthesized-a_1B5191CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\vaisseau\motor\slow		902189
+	1014768237	lapins-001	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-001		8726
+
