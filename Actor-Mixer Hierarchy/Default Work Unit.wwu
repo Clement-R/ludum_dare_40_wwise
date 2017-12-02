@@ -1227,6 +1227,20 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="police" ID="{2C232AB7-BA3C-46E7-8AF8-6A4E559C0A58}" ShortID="601483737">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8E41F156-A8DC-4E6C-984B-8ADC9A0F76F7}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0A4413FB-7A4E-4CBF-A078-BF68A45FEEC0}"/>
@@ -1248,6 +1262,14 @@
 									<AudioFile>police.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{BC157047-EC99-4DAD-BBEA-F85D20C169F9}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-57.8411405295316"/>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="police" ID="{DF4532A8-87E4-458C-BD19-645B4BFC0158}" Platform="Linked"/>
 							</ActiveSourceList>

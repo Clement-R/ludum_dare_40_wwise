@@ -155,6 +155,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_police" ID="{CF3CE80B-F2DE-460B-9396-72ECC98DCCCF}">
+					<ChildrenList>
+						<Action Name="" ID="{B3577533-44E7-44F1-B55C-AF5F4B349425}" ShortID="142533007">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="police" ID="{51B91BB4-AABE-4A32-B8EF-AB4009717E22}" WorkUnitID="{0A90EF83-DEC1-4433-A97D-2B843564CC00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -33,19 +33,27 @@
 							<ObjectRef Name="Play_action_lapin" ID="{47278591-4769-43A9-B32C-F292F3883FF8}" WorkUnitID="{36301415-3A98-45B2-B5CC-9A7DEED7F7E4}"/>
 							<Position X="3" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_police" ID="{8546BF1B-0AE0-4852-B7DC-EEC4D40062B6}" WorkUnitID="{36301415-3A98-45B2-B5CC-9A7DEED7F7E4}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_police" ID="{CF3CE80B-F2DE-460B-9396-72ECC98DCCCF}" WorkUnitID="{36301415-3A98-45B2-B5CC-9A7DEED7F7E4}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="speed_perso" ID="{74F8D785-D6FC-4467-9AE1-005D237A1DB4}"/>
-							<Value>61</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="police" ID="{51B91BB4-AABE-4A32-B8EF-AB4009717E22}"/>
-							<Value>1</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="speed_vaisseau" ID="{580A8636-4947-4BA9-9605-D5BC3A66AA2B}"/>
-							<Value>47</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

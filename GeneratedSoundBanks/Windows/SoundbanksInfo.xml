@@ -31,15 +31,16 @@
 				<Event Id="1656134708" Name="Play_police" ObjectPath="\Events\Default Work Unit\Play_police"/>
 				<Event Id="2028669661" Name="Play_reparation" ObjectPath="\Events\Default Work Unit\Play_reparation"/>
 				<Event Id="3343348020" Name="Play_reproduction" ObjectPath="\Events\Default Work Unit\Play_reproduction"/>
+				<Event Id="4170265338" Name="Stop_police" ObjectPath="\Events\Default Work Unit\Stop_police"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="133352008" Language="SFX">
-					<ShortName>music_test.wav</ShortName>
-					<Path>SFX\music_test_A2672D7D.wem</Path>
-				</File>
 				<File Id="233422208" Language="SFX">
 					<ShortName>47835__tc630__fire2.wav</ShortName>
 					<Path>SFX\47835__tc630__fire2_A2672D7D.wem</Path>
+				</File>
+				<File Id="312489251" Language="SFX">
+					<ShortName>music_all.wav</ShortName>
+					<Path>SFX\music_all_A2672D7D.wem</Path>
 				</File>
 				<File Id="368712000" Language="SFX">
 					<ShortName>lapins-002.wav</ShortName>
@@ -65,6 +66,10 @@
 					<ShortName>lapins-003.wav</ShortName>
 					<Path>SFX\lapins-003_B95B134F.wem</Path>
 				</File>
+				<File Id="440207326" Language="SFX">
+					<ShortName>music_acab.wav</ShortName>
+					<Path>SFX\music_acab_A2672D7D.wem</Path>
+				</File>
 				<File Id="442780655" Language="SFX">
 					<ShortName>lapins-004.wav</ShortName>
 					<Path>SFX\lapins-004_B95B134F.wem</Path>
@@ -72,6 +77,10 @@
 				<File Id="443471958" Language="SFX">
 					<ShortName>four.wav</ShortName>
 					<Path>SFX\four_B95B134F.wem</Path>
+				</File>
+				<File Id="447479865" Language="SFX">
+					<ShortName>music_police.wav</ShortName>
+					<Path>SFX\music_police_A2672D7D.wem</Path>
 				</File>
 				<File Id="487316310" Language="SFX">
 					<ShortName>aspire.wav</ShortName>
