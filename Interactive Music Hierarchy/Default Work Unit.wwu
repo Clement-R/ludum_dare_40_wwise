@@ -18,7 +18,7 @@
 					<ChildrenList>
 						<MusicSegment Name="music" ID="{E855BFAF-3078-411C-8D75-EA5696D01DF1}" ShortID="15091713">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="199680"/>
+								<Property Name="EndPosition" Type="Real64" Value="250766.041335453"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="PlaybackSpeed" Type="Real64">
 									<RTPCList>
@@ -128,7 +128,7 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
-								<MusicTrack Name="police" ID="{89DCCB87-6D1E-4990-ABA9-CF91FEA40DE7}" ShortID="400851262">
+								<MusicTrack Name="music_police" ID="{89DCCB87-6D1E-4990-ABA9-CF91FEA40DE7}" ShortID="400851262">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -183,6 +183,23 @@
 											<AudioFile>music_police.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="pause" ID="{329E0E8E-1E09-42A7-AE3F-48B5ED935C6C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="pause" ID="{4952387B-705A-41F9-A38C-9F3C4E1E6060}"/>
+												<State Name="Custom State" ID="{B0C5395F-7BFE-458A-805B-58D65EFA213E}" ShortID="964537652">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{1FC558A4-7FD5-450D-8E8B-F2EF3C6A0B01}">
 											<PropertyList>
@@ -292,12 +309,19 @@
 								<MusicCue Name="Exit Cue" ID="{098008CA-0A22-4F25-A975-677263A0390D}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="161280"/>
+										<Property Name="TimeMs" Type="Real64" Value="199680"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
 						<MusicSegment Name="Mamazon" ID="{76223BE7-FC56-4DF9-A0C4-228FDAE0D49A}" ShortID="595428693">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0A4413FB-7A4E-4CBF-A078-BF68A45FEEC0}"/>
@@ -350,6 +374,23 @@
 									</SequenceList>
 								</MusicTrack>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="pause" ID="{329E0E8E-1E09-42A7-AE3F-48B5ED935C6C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="pause" ID="{4952387B-705A-41F9-A38C-9F3C4E1E6060}"/>
+										<State Name="Custom State" ID="{2D9E57FD-C2AB-4062-9106-5CA0D9647C54}" ShortID="404765124">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{7BB59D40-8330-4611-A085-29E3C85388BE}"/>
 								<MusicCue Name="Exit Cue" ID="{92DB3588-D3AF-4BBB-859F-E787365CE36A}">
@@ -402,6 +443,16 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="menu_music" ID="{56C1EE5F-82BC-4C3A-AF92-0126038B1865}" ShortID="1070642269">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>38</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="125"/>
 					</PropertyList>
 					<ReferenceList>

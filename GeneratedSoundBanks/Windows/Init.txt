@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3092587493	pause			\Default Work Unit\pause	
+
+State	ID	Name	State Group			Notes
+	748895195	None	pause			
+	3092587493	pause	pause			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	602571222	pause	pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\mus		
+	993327410	pause	pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ui		
+	1060245641	pause	pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\in		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1883033791	sidechain			\Default Work Unit\sidechain	
 

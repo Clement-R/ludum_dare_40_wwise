@@ -22,7 +22,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1010,12 +1010,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-772</YPos>
+																<YPos>-1714</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>1029</YPos>
+																<YPos>2143</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1057,6 +1057,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1394,6 +1399,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="low_speed" ID="{1863CF5F-D601-47CE-8B2E-6408A2146397}" ShortID="177781418">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0A4413FB-7A4E-4CBF-A078-BF68A45FEEC0}"/>

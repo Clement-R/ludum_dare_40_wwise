@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	17703653	Play_defaite_police			\Default Work Unit\Play_defaite_police	
+	686738888	Stop_moteur			\Default Work Unit\vaisseau\Stop_moteur	
 	1042987450	Play_select			\Default Work Unit\menu\Play_select	
 	1484926170	Play_moteur			\Default Work Unit\vaisseau\Play_moteur	
 	1489408508	Play_low_speed			\Default Work Unit\vaisseau\Play_low_speed	
@@ -15,12 +16,25 @@ Event	ID	Name			Wwise Object Path	Notes
 	3199860711	Play_metal			\Default Work Unit\Play_metal	
 	3233022132	Play_usurecritique			\Default Work Unit\vaisseau\Play_usurecritique	
 	3240502920	Play_tuto			\Default Work Unit\Play_tuto	
+	3298098222	Stop_pause			\Default Work Unit\Stop_pause	
 	3343348020	Play_reproduction			\Default Work Unit\Play_reproduction	
 	3678041040	Play_jetpack			\Default Work Unit\Play_jetpack	
 	3720709400	Play_overbutton			\Default Work Unit\menu\Play_overbutton	
 	3809633750	Stop_game_music			\Default Work Unit\music\Stop_game_music	
 	4141037488	Play_game_music			\Default Work Unit\music\Play_game_music	
 	4170265338	Stop_police			\Default Work Unit\Stop_police	
+	4233560256	Play_pause			\Default Work Unit\Play_pause	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3092587493	pause			\Default Work Unit\pause	
+
+State	ID	Name	State Group			Notes
+	748895195	None	pause			
+	3092587493	pause	pause			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	404765124	pause	pause	\Interactive Music Hierarchy\Default Work Unit\game_music\Mamazon		
+	964537652	pause	pause	\Interactive Music Hierarchy\Default Work Unit\game_music\music\music_police		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	130322156	speed_vaisseau			\Default Work Unit\speed_vaisseau	
@@ -43,17 +57,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	119835608	usure	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\usure_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\usure		164708
 	187799466	defaite_lapin	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\bunnylol_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\defaite_lapin		35855
 	233422208	47835__tc630__fire2	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\47835__tc630__fire2_A2672D7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\perso\jetpack\47835__tc630__fire2		864058
-	312489251	music_all	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_all_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music\music_all		11311160
+	312489251	music_all	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_all_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music\music_all		11054797
 	368712000	lapins-002	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-002		9592
 	371715778	police	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\police_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\police		446231
 	407681101	166542__nic3-one__constant-spray-fire-1	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\166542__nic3-one__constant-spray-fire-1_66DA9113.wem		\Actor-Mixer Hierarchy\Default Work Unit\perso\jetpack\166542__nic3-one__constant-spray-fire-1		527341
 	426829032	reparation	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\reparation_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\perso\reparation		29270
 	428669601	metal2	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\metal2_71383FEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\metal\metal2		79296
 	430668461	lapins-003	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-003		10434
-	440207326	music_nopolice	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_acab_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music\music_nopolice		9769053
+	440207326	music_nopolice	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_acab_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music\music_nopolice		9474866
 	442780655	lapins-004	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-004_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-004		9837
 	443471958	four	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\four_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\vaisseau\four		86005
-	447479865	police	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_police_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music\police		12074231
+	447479865	music_police	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_police_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\music\music_police		11126145
 	487316310	aspire	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\aspire_C3D6DEB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\aspire		11717
 	544346802	metal3	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\metal3_DE5745D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\metal\metal3		79862
 	579303373	111671__fatlane__policesiren	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\111671__fatlane__policesiren_8C8D83EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\111671__fatlane__policesiren		227875

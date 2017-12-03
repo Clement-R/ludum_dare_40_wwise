@@ -7,11 +7,6 @@
 					<ChildrenList>
 						<Bus Name="mus" ID="{CE29D165-862C-406E-9EA2-096C4F0D1399}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{03326295-76DF-4597-9AD8-1C49D08BAA05}" ShortID="1007593365">
@@ -38,7 +33,7 @@
 													</Point>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-6.27993</YPos>
+														<YPos>-4.129</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -47,6 +42,25 @@
 									</RTPCList>
 								</Property>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="pause" ID="{329E0E8E-1E09-42A7-AE3F-48B5ED935C6C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="pause" ID="{4952387B-705A-41F9-A38C-9F3C4E1E6060}"/>
+										<State Name="Custom State" ID="{CBB26ECA-C486-470F-9A44-2BD3F9CBC7F4}" ShortID="602571222">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="15"/>
+												<Property Name="Lowpass" Type="int16" Value="52"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="in" ID="{48FB92DC-27D3-47EE-B995-8B23FB3A9D3C}">
 							<ChildrenList>
@@ -56,6 +70,23 @@
 									<ReferenceList/>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="pause" ID="{329E0E8E-1E09-42A7-AE3F-48B5ED935C6C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="pause" ID="{4952387B-705A-41F9-A38C-9F3C4E1E6060}"/>
+										<State Name="Custom State" ID="{91A4108C-4512-4773-A475-02FB38023703}" ShortID="1060245641">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="ui" ID="{C0FB2DB9-4069-4737-9086-9FDE51E44DEE}">
 							<ReferenceList>
@@ -73,6 +104,23 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="pause" ID="{329E0E8E-1E09-42A7-AE3F-48B5ED935C6C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="pause" ID="{4952387B-705A-41F9-A38C-9F3C4E1E6060}"/>
+										<State Name="Custom State" ID="{498CF1C9-3014-4FA8-9A18-B8C3D4B83B72}" ShortID="993327410">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>

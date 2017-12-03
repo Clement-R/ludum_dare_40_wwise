@@ -33,6 +33,7 @@
 				<Event Id="3199860711" Name="Play_metal" ObjectPath="\Events\Default Work Unit\Play_metal"/>
 				<Event Id="1484926170" Name="Play_moteur" ObjectPath="\Events\Default Work Unit\vaisseau\Play_moteur"/>
 				<Event Id="3720709400" Name="Play_overbutton" ObjectPath="\Events\Default Work Unit\menu\Play_overbutton"/>
+				<Event Id="4233560256" Name="Play_pause" ObjectPath="\Events\Default Work Unit\Play_pause"/>
 				<Event Id="1656134708" Name="Play_police" ObjectPath="\Events\Default Work Unit\Play_police"/>
 				<Event Id="2028669661" Name="Play_reparation" ObjectPath="\Events\Default Work Unit\Play_reparation"/>
 				<Event Id="3343348020" Name="Play_reproduction" ObjectPath="\Events\Default Work Unit\Play_reproduction"/>
@@ -41,6 +42,8 @@
 				<Event Id="1801567740" Name="Play_usure" ObjectPath="\Events\Default Work Unit\vaisseau\Play_usure"/>
 				<Event Id="3233022132" Name="Play_usurecritique" ObjectPath="\Events\Default Work Unit\vaisseau\Play_usurecritique"/>
 				<Event Id="3809633750" Name="Stop_game_music" ObjectPath="\Events\Default Work Unit\music\Stop_game_music"/>
+				<Event Id="686738888" Name="Stop_moteur" ObjectPath="\Events\Default Work Unit\vaisseau\Stop_moteur"/>
+				<Event Id="3298098222" Name="Stop_pause" ObjectPath="\Events\Default Work Unit\Stop_pause"/>
 				<Event Id="4170265338" Name="Stop_police" ObjectPath="\Events\Default Work Unit\Stop_police"/>
 				<Event Id="2401184783" Name="Trigger_mamazon" ObjectPath="\Events\Default Work Unit\mamazon\Trigger_mamazon"/>
 			</IncludedEvents>
