@@ -5,10 +5,75 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ChildrenList>
-						<Bus Name="amb" ID="{E4476073-D735-41D6-9FEA-14426A6F91FA}"/>
-						<Bus Name="vx" ID="{30847E6C-BDD6-413E-A471-5FD8A10B129C}"/>
-						<Bus Name="mus" ID="{CE29D165-862C-406E-9EA2-096C4F0D1399}"/>
-						<Bus Name="perso" ID="{9B42EADA-5F46-44C2-B68A-5DD0B06C9D0A}"/>
+						<Bus Name="mus" ID="{CE29D165-862C-406E-9EA2-096C4F0D1399}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{03326295-76DF-4597-9AD8-1C49D08BAA05}" ShortID="1007593365">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="sidechain" ID="{2A4FC714-E474-43B8-AB9E-60746260CEF4}" WorkUnitID="{0A90EF83-DEC1-4433-A97D-2B843564CC00}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7C43AE38-D6CD-404C-BB96-D6CC59A235B8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0.13898</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-31.77747</XPos>
+														<YPos>-0.07472</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6.27993</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="in" ID="{48FB92DC-27D3-47EE-B995-8B23FB3A9D3C}">
+							<ChildrenList>
+								<Bus Name="amb" ID="{E4476073-D735-41D6-9FEA-14426A6F91FA}"/>
+								<Bus Name="vx" ID="{30847E6C-BDD6-413E-A471-5FD8A10B129C}"/>
+								<Bus Name="perso" ID="{9B42EADA-5F46-44C2-B68A-5DD0B06C9D0A}">
+									<ReferenceList/>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="ui" ID="{C0FB2DB9-4069-4737-9086-9FDE51E44DEE}">
+							<ReferenceList>
+								<Reference Name="Effect3">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{36EA8655-177F-4FAC-9A12-88EEF79D4926}" ShortID="109843991" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="MeterScope" Type="int32" Value="1"/>
+												<Property Name="ReleaseTime" Type="Real32" Value="0.02"/>
+											</PropertyList>
+											<PluginData>
+	<GameParameter Name="sidechain" ID="{2A4FC714-E474-43B8-AB9E-60746260CEF4}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
