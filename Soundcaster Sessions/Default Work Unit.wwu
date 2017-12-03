@@ -50,6 +50,10 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_menu_music" ID="{E4BBE4DF-7FD5-4D20-9FAE-8E481C59C524}" WorkUnitID="{36301415-3A98-45B2-B5CC-9A7DEED7F7E4}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_four" ID="{239A82B7-2198-4FB5-9FAD-B5009616B127}" WorkUnitID="{36301415-3A98-45B2-B5CC-9A7DEED7F7E4}"/>
 							<Position X="4" Y="0"/>
 						</Module>

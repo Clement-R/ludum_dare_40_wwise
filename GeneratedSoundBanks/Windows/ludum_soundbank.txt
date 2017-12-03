@@ -1,21 +1,25 @@
 Event	ID	Name			Wwise Object Path	Notes
 	17703653	Play_defaite_police			\Default Work Unit\Play_defaite_police	
-	1484926170	Play_moteur			\Default Work Unit\Play_moteur	
-	1489408508	Play_low_speed			\Default Work Unit\Play_low_speed	
+	1042987450	Play_select			\Default Work Unit\menu\Play_select	
+	1484926170	Play_moteur			\Default Work Unit\vaisseau\Play_moteur	
+	1489408508	Play_low_speed			\Default Work Unit\vaisseau\Play_low_speed	
 	1656134708	Play_police			\Default Work Unit\Play_police	
-	1801567740	Play_usure			\Default Work Unit\Play_usure	
+	1801567740	Play_usure			\Default Work Unit\vaisseau\Play_usure	
 	1912676331	Play_action_lapin			\Default Work Unit\Play_action_lapin	
 	2028669661	Play_reparation			\Default Work Unit\Play_reparation	
 	2059889379	Play_defaite_lapin			\Default Work Unit\Play_defaite_lapin	
-	2401184783	Trigger_mamazon			\Default Work Unit\Trigger_mamazon	
-	2492971224	Play_aspire			\Default Work Unit\Play_aspire	
-	3033088026	Play_four			\Default Work Unit\Play_four	
+	2228153899	Play_menu_music			\Default Work Unit\menu\Play_menu_music	
+	2401184783	Trigger_mamazon			\Default Work Unit\mamazon\Trigger_mamazon	
+	2492971224	Play_aspire			\Default Work Unit\mamazon\Play_aspire	
+	3033088026	Play_four			\Default Work Unit\vaisseau\Play_four	
 	3199860711	Play_metal			\Default Work Unit\Play_metal	
-	3233022132	Play_usurecritique			\Default Work Unit\Play_usurecritique	
+	3233022132	Play_usurecritique			\Default Work Unit\vaisseau\Play_usurecritique	
+	3240502920	Play_tuto			\Default Work Unit\Play_tuto	
 	3343348020	Play_reproduction			\Default Work Unit\Play_reproduction	
 	3678041040	Play_jetpack			\Default Work Unit\Play_jetpack	
-	3809633750	Stop_game_music			\Default Work Unit\Stop_game_music	
-	4141037488	Play_game_music			\Default Work Unit\Play_game_music	
+	3720709400	Play_overbutton			\Default Work Unit\menu\Play_overbutton	
+	3809633750	Stop_game_music			\Default Work Unit\music\Stop_game_music	
+	4141037488	Play_game_music			\Default Work Unit\music\Play_game_music	
 	4170265338	Stop_police			\Default Work Unit\Stop_police	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -60,4 +64,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	932001377	usurecritique	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\usurecritique_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\usurecritique		269584
 	946078885	slow	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\376415__inspectorj__wind-synthesized-a_58AD895F.wem		\Actor-Mixer Hierarchy\Default Work Unit\vaisseau\motor\slow		902189
 	1014768237	lapins-001	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\lapins-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\lapins\action_lapin\lapins-001		8726
+	1062944287	music_menu	E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\SFX\music_menu_A2672D7D.wem		\Interactive Music Hierarchy\Default Work Unit\menu_music\music_menu\music_menu		1867146
 
