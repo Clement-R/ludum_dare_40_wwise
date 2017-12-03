@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\</ProjectRoot>
-		<SourceFilesRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\</ProjectRoot>
+		<SourceFilesRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -58,7 +58,7 @@
 				</File>
 				<File Id="119835608" Language="SFX">
 					<ShortName>usure.wav</ShortName>
-					<Path>SFX\usure_B95B134F.wem</Path>
+					<Path>SFX\usure_329A2A55.wem</Path>
 				</File>
 				<File Id="187799466" Language="SFX">
 					<ShortName>bunnylol.wav</ShortName>
