@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\</ProjectRoot>
-		<SourceFilesRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\</ProjectRoot>
+		<SourceFilesRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\PROJET M2\Ludum 40\Wwise_ludum\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\_Dev\Gamedev\ludum_dare_40\wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -43,6 +43,7 @@
 				<Event Id="3233022132" Name="Play_usurecritique" ObjectPath="\Events\Default Work Unit\vaisseau\Play_usurecritique"/>
 				<Event Id="3809633750" Name="Stop_game_music" ObjectPath="\Events\Default Work Unit\music\Stop_game_music"/>
 				<Event Id="686738888" Name="Stop_moteur" ObjectPath="\Events\Default Work Unit\vaisseau\Stop_moteur"/>
+				<Event Id="106912753" Name="Stop_music_menu" ObjectPath="\Events\Default Work Unit\Stop_music_menu"/>
 				<Event Id="3298098222" Name="Stop_pause" ObjectPath="\Events\Default Work Unit\Stop_pause"/>
 				<Event Id="4170265338" Name="Stop_police" ObjectPath="\Events\Default Work Unit\Stop_police"/>
 				<Event Id="2401184783" Name="Trigger_mamazon" ObjectPath="\Events\Default Work Unit\mamazon\Trigger_mamazon"/>
@@ -58,7 +59,7 @@
 				</File>
 				<File Id="119835608" Language="SFX">
 					<ShortName>usure.wav</ShortName>
-					<Path>SFX\usure_329A2A55.wem</Path>
+					<Path>SFX\usure_340E8E0A.wem</Path>
 				</File>
 				<File Id="187799466" Language="SFX">
 					<ShortName>bunnylol.wav</ShortName>
