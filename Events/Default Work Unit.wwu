@@ -563,10 +563,14 @@
 					<ChildrenList>
 						<Action Name="" ID="{E26C3485-877D-4F1A-B8E5-86F3E2902D20}" ShortID="567951990">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu_music" ID="{56C1EE5F-82BC-4C3A-AF92-0126038B1865}" WorkUnitID="{144C97B3-E93B-46EF-88F9-5BCA64E7FEEC}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>

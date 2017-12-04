@@ -101,7 +101,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="speed_vaisseau" ID="{580A8636-4947-4BA9-9605-D5BC3A66AA2B}"/>
-							<Value>88</Value>
+							<Value>39.2857142857143</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
